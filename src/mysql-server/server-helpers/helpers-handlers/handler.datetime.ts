@@ -1,0 +1,3 @@
+class MySQLServerHelpersHandlerDateTimeIndex {}
+
+export default MySQLServerHelpersHandlerDateTimeIndex;
