@@ -1,0 +1,3 @@
+class MySQLServerHelpersHandlerConsoleIndex {}
+
+export default MySQLServerHelpersHandlerConsoleIndex;
