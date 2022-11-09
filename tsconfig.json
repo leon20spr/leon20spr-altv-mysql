@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "esnext",
+        "typeRoots": [
+            "./node_modules/@types",
+            "./node_modules/@altv"
+        ]
+    }
+}
