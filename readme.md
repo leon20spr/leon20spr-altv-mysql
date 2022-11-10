@@ -13,6 +13,9 @@ import * as typeorm from "typeorm";
 
 import mysql from "../../leon20spr-mysql/mysql-server/server.index.js";
 
+/**
+ * To create a entity
+ */
 const Test = new typeorm.EntitySchema({
     name: "test",
     columns: {
@@ -27,6 +30,9 @@ const Test = new typeorm.EntitySchema({
     }
 });
 
+/**
+ * To connect the database
+ */
 mysql.createConnection("localhost", 3306, "root", "", "test", [
     Test
 ]);
