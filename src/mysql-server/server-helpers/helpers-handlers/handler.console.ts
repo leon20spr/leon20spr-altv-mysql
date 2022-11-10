@@ -1,7 +1,5 @@
 import * as alt from "alt-server";
 
-import mysql from "../../server.index";
-
 class MySQLServerHelpersHandlerConsoleIndex {
     /**
      * To format errors 
