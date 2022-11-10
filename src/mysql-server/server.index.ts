@@ -11,6 +11,15 @@ class MySQLServerIndex {
         this._activeConnection = undefined;
     }
 
+    /**
+     * To connect to the database
+     * @param {string} host 
+     * @param {number} port 
+     * @param {string} username 
+     * @param {string} password 
+     * @param {string} database 
+     * @param {any} entities 
+     */
     public async createConnection(host: string, port: number, username: string, password: string, database: string, entities: any): Promise<void> {
         try {
             if (this._activeConnection === undefined) {
