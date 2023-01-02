@@ -1,4 +1,4 @@
-# altv-mysql / leon20spr
+# altv-os-mysql / leon20spr
 
 With this resource you can easily control your MySQL database.
 
